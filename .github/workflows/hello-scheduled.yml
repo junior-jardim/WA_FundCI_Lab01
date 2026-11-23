@@ -3,7 +3,7 @@ name: Hello World Scheduled
 on:
   schedule:
     - cron: '0 12 * * *'
-  workflow_dispatch:
+  
 
 jobs:
   hello:
