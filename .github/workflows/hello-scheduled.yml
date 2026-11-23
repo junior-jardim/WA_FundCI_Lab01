@@ -1,0 +1,14 @@
+
+name: Hello World Scheduled
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello World
+        run: echo "Hello World! My first scheduled workflow!"
